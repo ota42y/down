@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/janko-m/down.svg?branch=master)](https://travis-ci.org/janko-m/down)
+
 # Down
 
 Down is a utility tool for streaming, flexible and safe downloading of remote
