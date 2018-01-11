@@ -6,10 +6,16 @@ services:
 language: ruby
 
 rvm:
-  - "2.2.7"
-  - "2.3.4"
-  - "2.4.1"
-  - "jruby-9.1.15.0"
+  - 2.2.8
+  - 2.3.5
+  - 2.4.2
+  - 2.5.0
+  - jruby-9.1.15.0
+  - ruby-head
+
+matrix:
+  allow_failures:
+    - rvm: ruby-head
 
 cache: bundler
 
